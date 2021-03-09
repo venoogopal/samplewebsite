@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+.box { width: 100px; height: 100px; background: #cccccc; border: 1px solid black linear; transition: border 1s, height 2s ease-in; margin-top: 8px }
+.box:hover { border: 5px solid #888888; width: 200px; height: 400px; }
+p:first-child { background:yellow; padding: 6px }
+.boxes .box:first-child { background: red }
+ul li:first-child { background: red }
+ul.nobg li:first-child { background: none }
+.bluebg ul:first-child { background: blue }
+table tbody tr:first-child { background: #888888 }
+table tr td:first-child { background: #0066CC }
+.paras p:last-child { background: #FF66CC }
+.boxes .box:last-child { background:#3333FF }
+ul li:last-child { background: #FFCC66 }
+.bluebg ul:last-child { list-style-type: none }
+table tbody tr:last-child { background: black; color: white }
+table tbody tr td:last-child { background: #33FF99 }
+.boxes2 .box { width: 19%; float: left; background: #999900; margin-left: 1% }
+.boxes2 .box:first-child { margin-left: 0 }
+</style>
+</head>
+
+<body>
+<div class="paras">
+<p>This is First paragraph</p>
+<p>This is Second paragraph</p>
+<p>This is Third paragraph</p>
+<p>This is Fourth paragraph</p>
+<p>This is Fifth paragraph</p>
+</div>
+
+<div class="boxes">
+<div class="box">
+</div>
+<div class="box">
+</div>
+<div class="box">
+</div>
+</div>
+<div class="bluebg">
+<ul>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+<li>Four</li>
+<li>Five</li>
+<li>Six</li>
+</ul>
+
+<ul>
+<li>box1</li>
+<li>box2</li>
+<li>box3</li>
+<li>box4</li>
+<li>box5</li>
+<li>box6</li>
+</ul>
+
+
+<ul class="nobg">
+<li>box1</li>
+<li>box2</li>
+<li>box3</li>
+<li>box4</li>
+<li>box5</li>
+<li>box6</li>
+</ul>
+</div>
+
+<table style="width:100%">
+<thead>
+<tr>
+	<th>slno</th>
+	<th>name</th>
+	<th>designation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>1</td>
+	<td>venu</td>
+	<td>designation</td>
+</tr>
+<tr>
+	<td>2</td>
+	<td>murthy</td>
+	<td>designation</td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>prakash</td>
+	<td>designation</td>
+</tr>
+<tr>
+	<td>4</td>
+	<td>kiran</td>
+	<td>designation</td>
+</tr>
+</tbody>
+</table>
+
+<div class="boxes2">
+<div class="box">
+</div>
+<div class="box">
+</div>
+<div class="box">
+</div>
+<div class="box">
+</div>
+<div class="box">
+</div>
+</div>
+</body>
+</html>
