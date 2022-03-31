@@ -1,7 +1,15 @@
 [
-	{"id":"01","name":"Dr.Murali Krishna","role":"CEO","status":"Active","branch":"Tanuku","Department":"Executive"},
+{
+	"users": 
+	[{"id":"01","name":"Dr.Murali Krishna","role":"CEO","status":"Active","branch":"Tanuku","Department":"Executive"},
 	{"id":"02","name":"Venkat.P","role":"UI/UX Design Team Lead","status":"Active","branch":"Tanuku","Department":"Designing"},
 	{"id":"03","name":"D.N.Murthy","role":"Sr.UI/UX Designer","status":"Active","branch":"Tanuku","Department":"Designing"},
 	{"id":"04","name":"Gopal.P","role":"Sr.UI/UX Designer","status":"Active","branch":"Tanuku","Department":"Designing"},
-	{"id":"05","name":"Vasu Parimi","role":"Human Resources","status":"In-Active","branch":"Tanuku","Department":"Admin"}
+	{"id":"05","name":"Vasu Parimi","role":"Human Resources","status":"In-Active","branch":"Tanuku","Department":"Admin"}],
+	"roles":
+	[{"Id":"01","Role":"CEO","Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur voluptates a corporis praesentium itaque eos omnis sunt sapiente cum obcaecati!","status":"Active"},
+    {"Id":"02","Role":"UI/UX Design Team Lead","Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur voluptates a corporis praesentium itaque eos omnis sunt sapiente cum obcaecati!","status":"Active"},
+    {"Id":"03","Role":"Sr.UI/UX Designer","Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur voluptates a corporis praesentium itaque eos omnis sunt sapiente cum obcaecati!","status":"Active"},
+    {"Id":"04","Role":"Human Resources","Description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur voluptates a corporis praesentium itaque eos omnis sunt sapiente cum obcaecati!","status":"Active"}]
+}
 ]
